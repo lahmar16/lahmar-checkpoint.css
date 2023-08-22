@@ -1,0 +1,72 @@
+
+.navbar {
+    display: inline;
+  }
+  
+  .navbar a {
+    margin: 0 10px; /* Add some spacing between links */
+    text-decoration: none;
+    color: #3002fd;
+  }
+  body {
+    
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar {
+    display: inline;
+  }
+  
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #eb0d0d;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e7c461fd; /* Set a background color for the whole page */
+    color: #000000; /* Set the text color */
+  }
+  
+  .navbar {
+    display: inline;
+  }
+  
+  .navbar a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #555; /* Adjust the link color */
+  }
+  
+  .article {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff; /* Set a background color for articles */
+  }
+  
+  .article-title {
+    color: #412525; /* Adjust the title color */
+  }
+  
+  .article-content {
+    color: #f80909; /* Adjust the content color */
+  }
+  
+  .article-author {
+    color: #00f729; /* Adjust the author color */
+  }
+
+  .article-box {
+    border: 10px dashed #0a0a0a;
+    background-color: #e7890d;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 2px 5px rgba(3, 3, 3, 0.1);
+  }
+
+ 
+
+  
+  
