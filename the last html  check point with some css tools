@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>GO MY SHOP</h1>
+    <!--the name is mandatory-->
+    <nav>
+      <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  
+ 
 
+</body></html>
+<head>  
+  <title>go my shop</title>
+  </head>
+<link rel="stylesheet" href="style.css">
+<body>
+  <video width="440" height="160" controls>
+    <source src="https://www.youtube.com/watch?v=j73v4ULTIrM" type="video/mp4">
+   
+</video>
+<audio controls>
+  <source src="audio" type="audio/mp3">
+  
+</audio>
+
+  <h1>MY SHOPPING STORE: </h1>
+  <p>please use the searching tools to choose your product!</p>
+ 
+<h2>ONLINE SERVICES:<h2/>
+  <P>Minimum Order: $35
+    Delivery Fee: Free shipping
+    Membership: $19.95/month or $138/year for Walmart+ membership and InHome delivery</P>
+<main>
+  <p>Click here to view more <a href="#">products photos</a>.</p>
+  <style>
+    table {
+        border-collapse: collapse;
+        width: 50%;
+        margin: 50px auto;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+        text-align: center;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<table>
+<tr>
+    <th>watches</th>
+    <th>glasses</th>
+    <th>wallets</th>
+</tr>
+<tr>
+    <td>11</td>
+    <td>22</td>
+    <td>33</td>
+</tr>
+<tr>
+    <td>44</td>
+    <td>55</td>
+    <td>66</td>
+</tr>
+<tr>
+  <td>77</td>
+  <td>88</td>
+  <td>99</td>
+</tr>
+
+</table>
+
+
+  <a href="#"><img src="https://th.bing.com/th/id/R.3f06459e858b839ba2018b938b4de0e5?rik=bYVmzkBU%2f6C4YQ&pid=ImgRaw&r=0" alt="see more pictures of products " alt="Image" width="300" height="400"></a>
+<img src="https://th.bing.com/th/id/R.3187049cdcf1802f149322710e799038?rik=6MT7aEFtwZpevQ&pid=ImgRaw&r=0" alt="exemple's pictures">
+<img src="https://thetrendingman.com/wp-content/uploads/2021/05/types-of-wallets-1-1536x1536.jpg" alt="Image" width="300" height="400">
+</p><mark>payment: <mark/></p>
+  <ul>
+    
+      <input type="radio" id="cash" name="payment" value="cash" required>
+      <label for="cash">cash</label>
+      <input type="radio" id="credit card" name="payment" value="credit card" required>
+      <label for="credit card">credit card</label><br><br>
+    
+  </ul>
+
+  
+  <p> <mark>rate our services: <mark/></p>
+  <ol>
+    <select>
+      <option value="good services ">good services</option>
+      <option value="medium services">medium services</option>
+      
+    </select>
+  </ol>
+  <form action="/submit-product-photo">
+    <p> <mark>choose products: <mark/></p>
+    <label for="MEN"><input id="MEN" type="checkbox" name="personality" value="MEN"> MEN</label>
+    <label for="WOMMEN"><input id="WOMMEN" type="checkbox" name="personality" value="WOMMEN"> WOMMEN</label> <br>
+
+    <input type="text" placeholder="enter the product code  " required>
+    <button type="submit">Submit</button>
+  </form>
+  <h2>Contact Us</h2>
+  <form action="submit_form.php" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+  
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+  
+      <label for="gender">Gender:</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br><br>
+  
+      <label for="subscribe">Subscribe to newsletter:</label>
+      <input type="checkbox" id="subscribe" name="subscribe"><br><br>
+  
+      <label for="country">Country:</label>
+      <select id="country" name="country">
+          <option value="usa">United States</option>
+          <option value="canada">Canada</option>
+          <option value="uk">United Kingdom</option>
+      </select><br><br>
+  
+      <input type="submit" value="Submit">
+      <footer>
+        <p>&copy; 2023 go my shop. All rights reserved.</p>
+    </footer>
+   
+       
+  </form>
+</main>
+</body>
+</html>
